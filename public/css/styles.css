@@ -33,6 +33,10 @@ ul li {
     padding-left: 27px;
 }
 
+.footer li {
+    opacity: 0.7;
+}
+
 .footer-container {
     position: absolute;
     width: 100%;
