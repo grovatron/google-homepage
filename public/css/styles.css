@@ -14,14 +14,42 @@
     margin: 20px;
 }
 
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
 .nav-left {
     position: absolute;
     left: 0;
+    top: 8px;
 }
 
 .nav-right {
     position: absolute;
     right: 0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    opacity: .6;
+}
+
+.icon:hover {
+    opacity: 1;
+}
+
+#apps {
+    background: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png") -132px -36px;
+}
+
+#notification {
+    width: 30px;
+    height: 30px;
+    background: black url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png) -390px -36px;
+    border: 1px black solid;
+    border-radius: 50%;
 }
 
 ul li {
