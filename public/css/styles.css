@@ -29,6 +29,10 @@ ul li {
     margin: 0 5px;
 }
 
+.navbar li {
+    padding-left: 27px;
+}
+
 .footer-container {
     position: absolute;
     width: 100%;
@@ -46,11 +50,13 @@ ul li {
 .foot-left {
     position: absolute;
     left: 0;
+    margin: 0 20px;
 }
 
 .foot-right {
     position: absolute;
     right: 0;
+    margin: 0 20px;
 }
 
 body {
