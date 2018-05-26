@@ -1,3 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .main {
     text-align: center;
+    margin-top: 80px;
+}
+
+.navbar {
+    position: relative;
+    height: 40px;
+    margin: 22px;
+}
+
+.nav-left {
+    position: absolute;
+    left: 0;
+}
+
+.nav-right {
+    position: absolute;
+    right: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
