@@ -53,6 +53,11 @@ ul li {
     right: 0;
 }
 
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
 li a {
     color: black;
 }
@@ -87,7 +92,6 @@ input[type=submit] {
     margin: 14px 4px;
     border-radius: 2px;
     color: #777;
-    font-family: arial, sans-serif;
     font-weight: bold;
     font-size: 13px;
 }
